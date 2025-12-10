@@ -5,7 +5,40 @@
 	<title> Portfolio </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+	<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+	<style>
+	    .hero-imagem {
+		height: 400px;
+
+		background-image: url('img/banner.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+
+		
+
+	    }
+	    .hero-titulo {
+		text-align: center;
+		font-family: "Ultra", serif;
+		font-size: 90px;
+	    }
+
+
+
+	    main .card {
+		max-width:435px;
+		height: 365px;
+	    }
+
+	    .h1 {
+		font-family: "Ultra", serif;
+	    }
+
+		
+	</style>
 
     </head>
 
@@ -16,127 +49,133 @@
 		    <div class="container-fluid justify-content-center">
 			<ul class="navbar-nav">
 			    <li class="nav-item ">
-				<a class="nav-link disabled">Eduarda</a>
+				<a class="nav-link active" href="https://github.com/eduaard4x">Eduarda</a>
 			    </li>
 			    <li class="nav-item ">
-				<a class="nav-link disabled">Gabriel</a>
+				<a class="nav-link active" href="">Gabriel</a>
 			    </li>
 			    <li class="nav-item ">
-				<a class="nav-link disabled">Matheus</a>
-			    </li>
-			    <li class="nav-item ">
-				<a class="nav-link active" href="../../Quiz/index.html">Yure</a>
+				<a class="nav-link active" href="https://github.com/MatheusViols">Matheus</a>
+			    </li> <li class="nav-item ">
+				<a class="nav-link active" href="https://github.com/yuregabriel12">Yure</a>
 			    </li>
 			</ul>
 
 		    </div>
 		</nav>
+
 	</header>
 
-	<main class="container-fluid bg-light" style="padding-top:50px;">
+	<div class="hero-imagem shadow align-content-center">
+	    <div class="hero-titulo">
+		<span>Mangus Paraíbus</span>
+	    </div>
+	</div>
+
+	<main class="row container-fluid justify-content-center bg-light">
 	    <div class="row gx-5 gy-5">
 		<div class="col">
-		    <div class="card shadow-lg" style="max-width:435px; max-height: 435px; min-height: 365px;">
+		    <div class="card overflow-auto shadow-lg" >
 			<div class="card-title h1 text-center shadow-sm"> Eduarda </div>
 			<div class="card-body">
-			    <p class="card-text">
-				<ul>
-				    <li>Irresponsável</li>
-				    <li>Sem nenhum senso de compromisso</li>
-				    <li>Não apresenta qualquer capacidade mínima para desenvolver um projeto.</li>
-				    <li>Incapaz de fazer um botão.</li>
-				    <li>Horrivel trabalhando em equipe.</li>
-				    <li>Procrastina até a ultima hora</li>
-				    <li>Incapaz.</li>
-				</ul>
+			    <p class="card-text text-justify">
+				<p class="desc" >
+					18 anos. Estudante do curso de Análise e Desenvolvimento de Sistemas,
+					apaixonada por criar experiências visuais únicas e funcionais.
+					Criativa e comunicativa, gosto de explorar o design e a persona
+					lização de projetos especialmente no Front End, unindo estática
+					e usabilidade
+				</p>
 			    </p>
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg" style="max-width:435px;">
+		    <div class="card text-center shadow-lg">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/html.png" alt="logo html">
-			</div>
-			<div class="card-body">
-			    <p class="card-text"> HTML bla bla bla </p>
+			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/web.png" alt="logo html">
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg" style="max-width:435px;">
+		    <div class="card text-center overflow-auto shadow-lg">
 			<div>
-			    <img class="card-img-top" style="width:300px; height:300px; padding-top:10px;" src="img/css.png" alt="logo css">
+			    <img class="card-img-top" style="width:100px; height:100px; padding-top:10px;" src="img/github.png" alt="icon github">
 			</div>
-			<div class="card-body">
-			    <p class="card-text"> CSS bla bla bla </p>
+			<div class="card-body p-5">
+			    <p class="card-text text-justify"> 
+			    	Alguns projetos usando Html Css e Javascript.
+			    </p>
+
+			    <button type="button" class="btn btn-dark">
+				<a href="https://github.com/eduaard4x/cli" style="text-decoration: None; color: white;">
+				    Ver o projeto 
+				</a>
+			    </button>
+
 			</div>
 		    </div>
 		</div>
 	    </div>
 
-	    <div class="row gx-5 gy-5" style="margin-top: 10px;">
+	    <div class="row gx-5 gy-5">
 		<div class="col">
-		    <div class="card shadow-lg">
+		    <div class="card overflow-auto shadow-lg" >
 			<div class="card-title h1 text-center shadow-sm"> Gabriel </div>
 			<div class="card-body">
-			    <div class="card-text">
-				<ul>
-				    <li>Irresponsável</li>
-				    <li>Sem nenhum senso de compromisso</li>
-				    <li>Não apresenta qualquer capacidade mínima para desenvolver um projeto.</li>
-				    <li>Incapaz de fazer um botão.</li>
-				    <li>Horrivel trabalhando em equipe.</li>
-				    <li>Procrastina até a ultima hora</li>
-				    <li>Incapaz.</li>
-				</ul>
+			    <div class="card-text text-justify">
+				<p>
+				    Eu me chamo Gabriel. Tenho 18 anos, estou cursando análise e
+				    desenvolvimento de sistemas e estou no segundo período.
+				    Foco meus estudos em desenvolvimento Front End usando Html,
+				    CSS e JavaScript.
+				</p>
 			    </div>
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg">
+		    <div class="card text-center shadow-lg" style="max-width:435px; max-height: 365px; min-height: 365px;">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/figma.png" alt="logo html">
-			</div>
-			<div class="card-body">
-			    <p class="card-text"> HTML bla bla bla </p>
+			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/web.png" alt="logo html, css e javascript">
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg">
+		    <div class="card overflow-auto text-center shadow-lg" style="max-width:435px; max-height: 435px; min-height: 365px;">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/mysql.png" alt="logo css">
+			    <img class="card-img-top" style="width: 100px; height: 100px; padding-top:10px;" src="img/github.png" alt="icon github">
 			</div>
-			<div class="card-body">
-			    <p class="card-text"> CSS bla bla bla </p>
+			<div class="card-body p-5">
+			    <p class="card-text text-justify"> 
+			    	Alguns projetos usando Html Css e Javascript.
+			    </p>
+
+			    <button type="button" class="btn btn-dark">
+				<a href="#" style="text-decoration: None; color: white;">
+				    Ver o projeto 
+				</a>
+			    </button>
+
 			</div>
 		    </div>
 		</div>
 	    </div>
 
-	    <div class="row gx-5 gy-5" style="margin-top: 10px;">
+	    <div class="row gx-5 gy-5">
 		<div class="col">
-		    <div class="card shadow-lg">
+		    <div class="card overflow-auto shadow-lg">
 			<div class="card-title h1 text-center shadow-sm"> Matheus </div>
 			<div class="card-body">
-			    <div class="card-text">
-				<ul>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				    <li>Gênio</li>
-				</ul>
+			    <div class="card-text text-justify">
+				<p>
+					Tenho 18 anos. Estou no curso de Análise e Desenvolvimento de Sistemas.
+					Interesse pela área de desenvolvimento web focada no Back End.						      Conhecimento básico nas linguagens Java e Python.
+				</p>
 			    </div>
 			</div>
 		    </div>
@@ -145,69 +184,91 @@
 		<div class="col">
 		    <div class="card text-center shadow-lg">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/python.webp" alt="logo html">
-			</div>
-			<div class="card-body">
-			    <p class="card-text"> HTML bla bla bla </p>
+			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/pythonjava.png" alt="logo html">
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg">
+		    <div class="card text-center overflow-auto shadow-lg" >
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/mysql.png" alt="logo css">
+			    <img class="card-img-top" style="width: 100px; height: 100px; padding-top:10px;" src="img/github.png" alt="icon github">
 			</div>
-			<div class="card-body">
-			    <p class="card-text"> CSS bla bla bla </p>
+			<div class="card-body p-5">
+			    <p class="card-text text-justify"> 
+			    	Um projeto de CRUD integrado com o mysql.
+				Responsável por todas as funções escritas em Python.
+			    </p>
+
+			    <button type="button" class="btn btn-dark">
+				<a href="https://github.com/MatheusViols/Projeto-Crud" style="text-decoration: None; color: white;">
+				    Ver o projeto 
+				</a>
+			    </button>
+
 			</div>
 		    </div>
 		</div>
 	    </div>
 
-	    <div class="row gx-5 gy-5" style="margin-top: 10px;">
+	    <div class="row gx-5 gy-5">
 		<div class="col">
-		    <div class="card shadow-lg">
+		    <div class="card overflow-auto shadow-lg" >
 			<div class="card-title h1 text-center shadow-sm"> Yure </div>
 			<div class="card-body">
 			    <div class="card-text">
-				<ul>
-				    <li>Irresponsável</li>
-				    <li>Sem nenhum senso de compromisso</li>
-				    <li>Não apresenta qualquer capacidade mínima para desenvolver um projeto.</li>
-				    <li>Incapaz de fazer um botão.</li>
-				    <li>Horrivel trabalhando em equipe.</li>
-				    <li>Procrastina até a ultima hora</li>
-				    <li>Bomba.</li>
-				</ul>
+				<p>
+					Estudante de Análise e Desenvolvimento de Sistemas, focado na área
+					de dados, procuro me aprofundar nessa área juntamente com outras
+					linguagens como R e Python.
+				</p>
 			    </div>
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg">
+		    <div class="card text-center shadow-lg" style="max-width:435px; max-height: 435px; min-height: 365px;">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/figma.png" alt="logo html">
-			</div>
-			<div class="card-body">
-			    <p class="card-text"> HTML bla bla bla </p>
+			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/mysql.png" alt="logo mysql">
 			</div>
 		    </div>
 		</div>
 
 		<div class="col">
-		    <div class="card text-center shadow-lg">
+		    <div class="card text-center overflow-auto shadow-lg" style="max-width:435px; max-height: 435px; min-height: 365px;">
 			<div>
-			    <img class="card-img-top" style="width: 300px; height: 300px; padding-top:10px;" src="img/mysql.png" alt="logo css">
+			    <img class="card-img-top" style="width: 100px; height: 100px; padding-top:10px;" src="img/github.png" alt="icon github">
 			</div>
-			<div class="card-body">
-			    <p class="card-text"> CSS bla bla bla </p>
+			<div class="card-body p-5">
+			    <p class="card-text text-justify"> 
+			    	Um projeto de CRUD integrado com o mysql.
+				Responsável pela modelagem e criação do banco de dados.
+			    </p>
+
+			    <button type="button" class="btn btn-dark">
+				<a href="https://github.com/MatheusViols/Projeto-Crud" style="text-decoration: None; color: white;">
+				    Ver o projeto 
+				</a>
+			    </button>
+
 			</div>
 		    </div>
 		</div>
 	    </div>
 	</main>
+
+
+	<footer class="bg-dark text-white align-content-center p-3" style="margin-top: 50px;">
+	    <p style="text-align: center;">&copy Todos os direitos reservados</p>
+	    <p style="text-align: center;">
+		Maria Eduarda<br>
+		Gabriel Cristovão<br>
+		Matheus Vinícius<br>
+		Yure Gabriel<br>
+	    </p>
+	    
+	</footer>
 
 
     </body>
